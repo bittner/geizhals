@@ -1,0 +1,15 @@
+{
+    "name": "geizhals.peter-bittner",
+    "description": "Geizhals Preisvergleich (Unofficial)",
+    "architecture": "all",
+    "title": "Geizhals (Unofficial)",
+    "hooks": {
+        "geizhals": {
+            "apparmor": "geizhals.apparmor",
+            "desktop": "geizhals.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}

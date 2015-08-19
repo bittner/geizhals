@@ -1,0 +1,60 @@
+Geizhals Preisvergleich (Unofficial)
+------------------------------------
+
+Geizhals Preisvergleich is an online price comparison portal. The website is
+operated by the Preisvergleich Internet Services AG, an Austrian company
+headquartered in Vienna. The price comparison spans Austria (geizhals.at),
+Germany (geizhals.de), and mostly Eastern Europe and the UK (geizhals.eu).
+
+This web app is not affiliated with Geizhals or the Preisvergleich Internet
+Services AG. The product name, associated trade marks and the Geizhals logo
+may be trade marks of Geizhals or the Preisvergleich Internet Services AG.
+
+Read more about Geizhals Preisvergleich on Wikipedia at
+https://de.wikipedia.org/wiki/Geizhals_Preisvergleich (German).
+
+License
+-------
+
+Geizhals Preisvergleich (Unofficial) for Ubuntu Touch devices
+Copyright (C) 2015  Peter Bittner <django@bittner.it>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Support
+-------
+
+Source code:
+- https://github.com/bittner/geizhals
+
+Issue tracker:
+- https://github.com/bittner/geizhals/issues
+
+Development
+-----------
+
+Ubuntu developer information on Webapps
+- https://developer.ubuntu.com/en/web/
+
+Introductory guide on Ubuntu Webapps
+- https://developer.ubuntu.com/en/web/ubuntu-webapps-guide/
+
+Ubuntu Webapps tutorials
+- https://developer.ubuntu.com/en/web/tutorials/
+
+Build and publish the .click package manually, without Ubuntu SDK:
+- Install `click` on your developer machine (`sudo apt-get install click`)
+- Make sure you have bumped the version number in `manifest.json`
+- `cd` into the project repo folder and build the package (`click build .`)
+- Upload the created .click file at https://myapps.developer.ubuntu.com
