@@ -3,6 +3,6 @@ Name=Geizhals (Unofficial)
 Comment=Geizhals Preisvergleich (Unofficial)
 Type=Application
 Icon=geizhals.png
-Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://geizhals.at/*,https?://geizhals.de/*,https?://geizhals.eu/* https://geizhals.eu, %u
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://geizhals.at/*,https?://geizhals.de/*,https?://geizhals.eu/* https://geizhals.eu
 Terminal=false
 X-Ubuntu-Touch=true
